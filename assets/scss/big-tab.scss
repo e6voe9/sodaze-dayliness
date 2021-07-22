@@ -1,0 +1,81 @@
+@media (max-width: 1199px) {
+	.container {
+		padding: 0 20px;
+	}
+	.main-screen {
+		min-height: auto;
+		&__inner {
+		}
+
+		&__text-box {
+			max-width: 49.9%;
+		}
+
+		&__logo {
+		}
+
+		&__info-text {
+		}
+
+		&__video-text {
+		}
+
+		&__video-box {
+		}
+
+		&__video {
+		}
+	}
+	.logo {
+	}
+	.video-text {
+		&__video {
+		}
+
+		&__text {
+			width: 103%;
+			height: 111%;
+		}
+	}
+	.content {
+		&__inner {
+		}
+
+		&__heading-box {
+		}
+
+		&__heading {
+		}
+
+		&__button {
+		}
+
+		&__list-box {
+		}
+
+		&__list-item {
+		}
+	}
+	.go {
+		&__inner {
+		}
+
+		&__top {
+		}
+
+		&__top-text {
+		}
+
+		&__heading {
+		}
+
+		&__text {
+		}
+
+		&__subheading {
+		}
+
+		&__button {
+		}
+	}
+}

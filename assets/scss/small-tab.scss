@@ -1,0 +1,96 @@
+@media (max-width: 1023px) {
+	.main-screen {
+		&__inner {
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			padding: 18px 0 36px 0;
+		}
+
+		&__text-box {
+			max-width: 100%;
+		}
+
+		&__logo {
+			align-self: center;
+			margin-bottom: 30px;
+		}
+
+		&__info-text {
+			&:nth-child(4){
+				margin-bottom: 50px;
+			}
+		}
+		&__text{
+			display: none;
+		}
+		&__icons{
+			display: none;
+		}
+
+		&__video-text {
+		}
+
+		&__video-box {
+			max-width: 100%;
+		}
+
+		&__video {
+		}
+	}
+	.logo {
+	}
+	.video-text {
+		&__video {
+		}
+
+		&__text {
+		}
+	}
+	.diary {
+		&__text {
+			max-width: 82.5%;
+		}
+	}
+	.content {
+		&__inner {
+		}
+
+		&__heading-box {
+		}
+
+		&__heading {
+		}
+
+		&__button {
+		}
+
+		&__list-box {
+		}
+
+		&__list-item {
+		}
+	}
+	.go {
+		&__inner {
+		}
+
+		&__top {
+		}
+
+		&__top-text {
+		}
+
+		&__heading {
+		}
+
+		&__text {
+		}
+
+		&__subheading {
+		}
+
+		&__button {
+		}
+	}
+}

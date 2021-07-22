@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: "Stolzl";
+  font-weight: 100;
+  color: #000;
+}
+
+button,
+input,
+a,
+ul,
+li,
+ol {
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img, video {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 87.5vw;
+  padding: 0 0.6944444444444444vw;
+}
