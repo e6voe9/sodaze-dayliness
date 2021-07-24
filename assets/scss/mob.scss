@@ -7,11 +7,18 @@
 		}
 
 		&__logo {
+			margin-bottom: 19px;
 		}
 
 		&__info-text {
 			font-size: 16px;
 			margin-bottom: 0;
+			transform: translateY(11px);
+			z-index: 10;
+			&:nth-child(4){
+				transform: translateY(-18px);
+				margin-bottom: 31px;
+			}
 		}
 
 		&__video-text {
@@ -25,8 +32,13 @@
 		}
 	}
 	.logo {
+		max-width: 58px;
 	}
 	.video-text {
+		&::after{
+			top: 49%;
+			width: 106%;
+		}
 		&__video {
 		}
 
@@ -35,9 +47,9 @@
 		}
 	}
 	.content {
-		margin-bottom: 134px;
+		margin-bottom: 98px;
 		&__inner {
-			padding: 36px 0;
+			padding: 41px 0 36px 0;
 			flex-direction: column;
 			align-items: center;
 			justify-content: flex-start;
@@ -50,9 +62,9 @@
 
 		&__heading {
 			max-width: 162px;
-
+			margin-bottom: 42px;
 			&::after {
-				right: -33px;
+				right: -28px;
 				bottom: -20px;
 				width: 80px;
 				height: 95px;
@@ -62,7 +74,7 @@
 		&__button {
 			position: absolute;
 			left: 50%;
-			bottom: -58px;
+			bottom: -63px;
 			transform: translateX(-50%);
 		}
 
@@ -74,6 +86,7 @@
 		&__list-item {
 			padding-left: 32px;
 			margin-bottom: 24px;
+			max-width: 315px;
 			&::before {
 				width: 23px;
 			}
@@ -88,10 +101,22 @@
 			padding: 36px 0;
 		}
 		&__img-box {
-			width: 120%;
-			max-width: 120%;
-			margin-bottom: 42px;
-			transform: translateX(18px);
+			max-width: 100%;
+			margin-bottom: 39px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			&::after{
+				width: 91.64%;
+				left: auto;
+				right: 0;
+				filter: blur(17px);
+			}
+		}
+		&__img{
+			width: 94.62%;
+			left: 0;
 		}
 		&__text-box {
 			max-width: 100%;
@@ -100,14 +125,15 @@
 			margin-bottom: 24px;
 			&::after {
 				bottom: -14px;
-				right: -52px;
+				right: -54px;
 				width: 80px;
 				height: 100px;
 			}
 		}
 		&__text {
-			max-width: 91.34%;
+			max-width: 92.34%;
 			font-size: 14px;
+			line-height: 1.8671;
 		}
 	}
 	.heading {
@@ -122,7 +148,7 @@
 		}
 
 		&__top {
-			margin-bottom: 0;
+			margin-bottom: 9px;
 		}
 
 		&__top-text {
@@ -130,10 +156,9 @@
 
 		&__heading {
 			font-size: 95px;
-			line-height: 140px;
-			margin-bottom: 31px;
+			margin-bottom: 54px;
 			&::after {
-				bottom: -6px;
+				bottom: -28px;
 			}
 		}
 
@@ -143,7 +168,7 @@
 
 		&__subheading {
 			font-size: 48px;
-			margin-bottom: 35px;
+			margin-bottom: 36px;
 		}
 
 		&__button {

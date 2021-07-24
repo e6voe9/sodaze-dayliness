@@ -13,6 +13,16 @@
 <body>
 	<!-- root -->
 	<div id="root">
+		<div class="music-button">
+			<button class="music-button__content">
+				<span class="music-button__item"></span>
+				<span class="music-button__item"></span>
+				<span class="music-button__item"></span>
+				<span class="music-button__item"></span>
+				<span class="music-button__item"></span>
+				<span class="music-button__item"></span>
+			</button>
+		</div>
 		<div class="main-screen">
 			<div class="container">
 				<div class="main-screen__inner">
@@ -20,8 +30,10 @@
 						<img src="img/logo.png" alt="logo" width="81" height="85" class="logo main-screen__logo">
 						<p class="main-screen__info-text">Курс - выдох</p>
 						<div class="video-text main-screen__video-text">
-							<video src="img/video.mp4" class="video-text__video" autoplay loop muted playsinline></video>
-							<div class="video-text__text">Dayliness</div>
+							<div class="video-text__inner">
+								<video src="img/video.mp4" class="video-text__video" autoplay loop muted playsinline></video>
+								<div class="video-text__text">Dayliness</div>
+							</div>
 						</div>
 						<p class="main-screen__info-text">Курс - созерцание</p>
 						<p class="main-screen__text">
@@ -87,6 +99,7 @@
 				</div>
 			</div>
 		</div>
+		
 	</div>
 	<!-- root end -->
 	<div class="modal-form" data-modal="modal1">
@@ -94,6 +107,12 @@
 		<div class="modal-form__content-box">
 			<script id="7f4901b73f62fa1c8fb7480b84423e0f6ea41a2a"
 				src="https://stopmotion.getcourse.ru/pl/lite/widget/script?id=411257"></script>
+				<div class="modal-form__close-button">
+					<div class="modal-form__close-button-inner">
+						<div class="modal-form__close-button-item"></div>
+						<div class="modal-form__close-button-item"></div>
+					</div>
+				</div>
 		</div>
 	</div>
 	<!-- scripts -->
