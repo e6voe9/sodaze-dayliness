@@ -411,13 +411,13 @@
 	}
 	&__content-box {
 		width: 100%;
-		max-width: 746px;
+		max-width: 51.80555555555556vw;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		background: #fff;
-		padding: 56px 20px;
+		padding: 3.888888888888889vw 1.3888888888888888vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -462,19 +462,19 @@
 	&__heading {
 		font-family: "Druk Cyr";
 		position: relative;
-		font-size: 52px;
+		font-size: 3.6111111111111107vw;
 		line-height: 1.2692;
-		margin-bottom: 10px;
-		max-width: 634px;
+		margin-bottom: 0.6944444444444444vw;
+		max-width: 44.02777777777778vw;
 
 		&::before{
 			content: '';
 			position: absolute;
-			top: 25px;
+			top: 1.7361111111111112vw;
 			left: 50%;
 			transform: translate(-50%, 0);
-			width: 529px;
-			height: 108px;
+			width: 36.736111111111114vw;
+			height: 7.5vw;
 			background: url('../img/form-heading-decor.svg') no-repeat;
 			background-position: center center;
 			background-size: contain;
@@ -484,28 +484,28 @@
 
 	&__subheading {
 		font-family: "Druk Cyr";
-		font-size: 32px;
+		font-size: 2.2222222222222223vw;
 		line-height: 1.2692;
 		letter-spacing: 0.05em;
-		max-width: 634px;
-		margin-bottom: 32px;
+		max-width: 44.02777777777778vw;
+		margin-bottom: 2.2222222222222223vw;
 	}
 
 	&__text {
-		font-size: 16px;
+		font-size: 1.1111111111111112vw;
 		line-height: 1.6875;
 		color: #5e5e5e;
-		margin-bottom: 18px;
+		margin-bottom: 1.25vw;
 	}
 
 	&__decor {
-		max-width: 114px;
-		margin-bottom: 41px;
+		max-width: 7.916666666666666vw;
+		margin-bottom: 2.8472222222222223vw;
 	}
 
 	&__form {
 		width: 100%;
-		max-width: 332px;
+		max-width: 23.055555555555557vw;
 	}
 }
 
@@ -570,10 +570,10 @@
 	align-items: center;
 	&__label-box {
 		width: 100%;
-		border: 1px solid #c0c0c0;
-		border-radius: 2px;
-		margin-bottom: 25px;
-		padding: 18px;
+		border: 0.06944444444444445vw solid #c0c0c0;
+		border-radius: 0.1388888888888889vw;
+		margin-bottom: 1.7361111111111112vw;
+		padding: 1.25vw;
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -583,10 +583,10 @@
 		position: absolute;
 		left: 0;
 		top: 0;
-		transform: translate(14px, -50%);
+		transform: translate(0.9722222222222222vw, -50%);
 		background: #fff;
-		padding: 0 4px;
-		font-size: 12px;
+		padding: 0 0.2777777777777778vw;
+		font-size: 0.8333333333333334vw;
 		line-height: 1.5;
 		color: #c9c9c9;
 		letter-spacing: 0.05em;
@@ -596,7 +596,7 @@
 		width: 100%;
 		color: #5d5d5d;
 		letter-spacing: 0.05em;
-		font-size: 15px;
+		font-size: 1.0416666666666665vw;
 		line-height: 1.2;
 		&::placeholder {
 			color: #c9c9c9;
@@ -604,11 +604,11 @@
 	}
 
 	&__custom-select {
-		margin-right: 8px;
+		margin-right: 0.5555555555555556vw;
 	}
 
 	&__button {
-		margin-top: 15px;
+		margin-top: 1.0416666666666665vw;
 	}
 }
 
@@ -616,13 +616,13 @@
 	display: flex;
 	align-items: center;
 	&__select {
-		margin-right: 16px;
+		margin-right: 1.1111111111111112vw;
 		position: relative;
 	}
 
 	&__head {
 		display: inline-block;
-		padding-right: 10px;
+		padding-right: 0.6944444444444444vw;
 		position: relative;
 		cursor: pointer;
 		&::after {
@@ -631,8 +631,8 @@
 			top: 50%;
 			right: 0;
 			transform: translate(0, -50%);
-			width: 6px;
-			height: 4px;
+			width: 0.4166666666666667vw;
+			height: 0.2777777777777778vw;
 			background: url("../img/lang/arrow.svg") no-repeat;
 			background-position: center center;
 			background-size: contain;
@@ -652,10 +652,10 @@
 
 	&__img {
 		display: inline-block;
-		width: 22px;
-		height: 16px;
-		filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.15));
-		border-radius: 2px;
+		width: 1.5277777777777777vw;
+		height: 1.1111111111111112vw;
+		filter: drop-shadow(0vw 0vw 0.1388888888888889vw rgba(0, 0, 0, 0.15));
+		border-radius: 0.1388888888888889vw;
 	}
 
 	&__body {
@@ -664,13 +664,13 @@
 		align-items: flex-start;
 		position: absolute;
 		bottom: 150%;
-		left: -10px;
+		left: -0.6944444444444444vw;
 		background: #fff;
-		padding: 10px;
-		border-radius: 2px;
-		border: 1px solid #c0c0c0;
+		padding: 0.6944444444444444vw;
+		border-radius: 0.1388888888888889vw;
+		border: 0.06944444444444445vw solid #c0c0c0;
 		.custom-select__item {
-			margin-bottom: 5px;
+			margin-bottom: 0.3472222222222222vw;
 			&:last-child {
 				margin-bottom: 0;
 			}
@@ -685,10 +685,10 @@
 	}
 
 	&__shortcode {
-		max-width: 41px;
+		max-width: 2.8472222222222223vw;
 		letter-spacing: 0.05em;
 		color: #5d5d5d;
-		font-size: 15px;
+		font-size: 1.0416666666666665vw;
 		line-height: 1.2;
 	}
 }
