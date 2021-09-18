@@ -669,8 +669,8 @@
 		padding: 0.6944444444444444vw;
 		border-radius: 0.1388888888888889vw;
 		border: 0.06944444444444445vw solid #c0c0c0;
-		height: 150px;
-		max-height: 150px;
+		height: 10.416666666666668vw;
+		max-height: 10.416666666666668vw;
 
 		overflow-x: hidden;
 		overflow-y: scroll;
@@ -683,15 +683,15 @@
 			margin-bottom: 0.3472222222222222vw;
 			position: relative;
 
-			padding-right: 50px;
+			padding-right: 3.4722222222222223vw;
 			&::after{
 				content: attr(data-shortcode);
 				position: absolute;
 				top: 40%;
 				right: 0;
 				transform: translate(0, -50%);
-				width: 45px;
-				font-size: 12px;
+				width: 3.125vw;
+				font-size: 0.8333333333333334vw;
 			}
 			&:last-child {
 				margin-bottom: 0;
