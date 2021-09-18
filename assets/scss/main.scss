@@ -669,8 +669,30 @@
 		padding: 0.6944444444444444vw;
 		border-radius: 0.1388888888888889vw;
 		border: 0.06944444444444445vw solid #c0c0c0;
+		height: 150px;
+		max-height: 150px;
+
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
 		.custom-select__item {
 			margin-bottom: 0.3472222222222222vw;
+			position: relative;
+
+			padding-right: 50px;
+			&::after{
+				content: attr(data-shortcode);
+				position: absolute;
+				top: 40%;
+				right: 0;
+				transform: translate(0, -50%);
+				width: 45px;
+				font-size: 12px;
+			}
 			&:last-child {
 				margin-bottom: 0;
 			}

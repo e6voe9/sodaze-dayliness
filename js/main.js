@@ -45,8 +45,14 @@ musicButton.addEventListener("click", function () {
 
 
 
+
+// let maskedInput = document.getElementById('maskedInput1');
+// Inputmask({mask: "(99) 999-99-99"}).mask(maskedInput);
+
+
 const customSelect = document.querySelector('.custom-select');
 const customSelectHead = customSelect.querySelector('.custom-select__head');
+const customSelectHeadImg = customSelectHead.querySelector('.custom-select__img');
 const customSelectBody = customSelect.querySelector('.custom-select__body');
 const customSelectShortcode = customSelect.querySelector('.custom-select__shortcode');
 
@@ -62,7 +68,16 @@ customSelectHead.addEventListener('click', toggleCustomSelect)
 customSelectItems.forEach(item => {
 	item.addEventListener('click', () => {
 		let shortcode = item.getAttribute('data-shortcode');
+		// let mask = item.getAttribute('data-input-mask');
+		let img = item.querySelector('.custom-select__img').src;
+		customSelectHeadImg.setAttribute('src', img);
 		customSelectShortcode.value = shortcode;
+
+		// Inputmask.remove(maskedInput);
+		// Inputmask({mask: mask}).mask(maskedInput);
+
+		// maskedInput.setAttribute('placeholder', mask.replaceAll('9', 'X'));
+
 		toggleCustomSelect();
 	})
 })
