@@ -55,7 +55,7 @@
 				<div class="content__inner">
 					<div class="content__heading-box">
 						<div class="heading content__heading">Содержание курса</div>
-						<button class="button content__button" data-modal-for="modal1">Купить за 5$</button>
+						<button class="button content__button" data-modal-for="modal1">ОСТАВИТЬ ЗАЯВКУ НА 2 ПОТОК</button>
 					</div>
 					<div class="content__list-box">
 						<div class="content__list-item">16 дней</div>
@@ -95,28 +95,66 @@
 					<div class="go__heading">Поехали?</div>
 					<p class="go__text">Старт</p>
 					<div class="go__subheading">20<br>Августа</div>
-					<button class="button go__button" data-modal-for="modal1">Купить за 5$</button>
+					<button class="button go__button" data-modal-for="modal1">ОСТАВИТЬ ЗАЯВКУ НА 2 ПОТОК</button>
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 	<!-- root end -->
 	<div class="modal-form" data-modal="modal1">
 		<div class="modal-form__bg"></div>
 		<div class="modal-form__content-box">
-			<script id="7f4901b73f62fa1c8fb7480b84423e0f6ea41a2a"
-				src="https://stopmotion.getcourse.ru/pl/lite/widget/script?id=411257"></script>
-				<div class="modal-form__close-button">
-					<div class="modal-form__close-button-inner">
-						<div class="modal-form__close-button-item"></div>
-						<div class="modal-form__close-button-item"></div>
-					</div>
+			<div class="modal-form__close-button">
+				<div class="modal-form__close-button-inner">
+					<div class="modal-form__close-button-item"></div>
+					<div class="modal-form__close-button-item"></div>
 				</div>
+			</div>
+			<div class="modal-form__heading">ЗАПОЛНИ ФОРМУ</div>
+			<div class="modal-form__subheading">И ПОПАДИ В СПИСОК ПРЕДВАРИТЕЛЬНОЙ РЕГИСТРАЦИИ</div>
+			<div class="modal-form__text">Мы предупредим тебя о старте продаж заранее </div>
+			<img src="img/form-decor.png" alt="decor" width="110" height="110" class="modal-form__decor">
+			<form action="#" method="POST" class="form modal-form__form">
+				<label class="form__label-box">
+					<span class="form__label-name">Имя</span>
+					<input type="text" class="form__input" placeholder="Введите имя">
+				</label>
+				<label class="form__label-box">
+					<span class="form__label-name">Почта</span>
+					<input type="text" class="form__input" placeholder="Введите почту">
+				</label>
+				<div class="form__label-box">
+					<span class="custom-select form__custom-select">
+						<span class="custom-select__select">
+							<span class="custom-select__head">
+								<span class="custom-select__item">
+									<img src="img/lang/ukraine.png" alt="icon" width="22" height="16" class="custom-select__img">
+								</span>
+							</span>
+							<span class="custom-select__body">
+								<span class="custom-select__item" data-shortcode="+380">
+									<img src="img/lang/ukraine.png" alt="icon" width="22" height="16" class="custom-select__img">
+								</span>
+								<span class="custom-select__item" data-shortcode="+7">
+									<img src="img/lang/ukraine.png" alt="icon" width="22" height="16" class="custom-select__img">
+								</span>
+								<span class="custom-select__item" data-shortcode="+1">
+									<img src="img/lang/ukraine.png" alt="icon" width="22" height="16" class="custom-select__img">
+								</span>
+							</span>
+						</span>
+						<input readonly class="custom-select__shortcode" type="text" value="+380">
+					</span>
+					<input type="text" class="form__input" id="maskedInput1" placeholder="(XX) XXX-XX-XX">
+				</div>
+				<button class="button form__button">Отправить</button>
+			</form>
 		</div>
 	</div>
 	<!-- scripts -->
-	<script src="js/main.js"></script>
+	<script src="js/main.js" async></script>
+	<script src="js/inputmask.js" async></script>
 	<!-- scripts end -->
 </body>
 

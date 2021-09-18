@@ -45,4 +45,24 @@ musicButton.addEventListener("click", function () {
 
 
 
+const customSelect = document.querySelector('.custom-select');
+const customSelectHead = customSelect.querySelector('.custom-select__head');
+const customSelectBody = customSelect.querySelector('.custom-select__body');
+const customSelectShortcode = customSelect.querySelector('.custom-select__shortcode');
 
+const customSelectItems = customSelectBody.querySelectorAll('.custom-select__item');
+
+const toggleCustomSelect = () => {
+	customSelectHead.classList.toggle('custom-select__head--active');
+	customSelectBody.classList.toggle('custom-select__body--active');
+}
+
+customSelectHead.addEventListener('click', toggleCustomSelect)
+
+customSelectItems.forEach(item => {
+	item.addEventListener('click', () => {
+		let shortcode = item.getAttribute('data-shortcode');
+		customSelectShortcode.value = shortcode;
+		toggleCustomSelect();
+	})
+})

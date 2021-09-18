@@ -5,10 +5,12 @@
 	.main-screen {
 		min-height: auto;
 		&__inner {
+			justify-content: space-between;
 		}
 
 		&__text-box {
 			max-width: 49.9%;
+			margin-right: 0;
 		}
 
 		&__logo {
